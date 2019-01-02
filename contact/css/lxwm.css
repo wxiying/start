@@ -1,0 +1,152 @@
+.container{
+	max-width: 1030px;
+    min-width: 270px;
+    padding:20px 15px 15px;
+    margin:0 auto 40px;
+}
+.container .main{
+	width:100%;
+	margin-top: 7px;
+}
+.container .main div{
+	font-size: 16px;
+	line-height: 36px;
+	color: #000000;
+	text-align: center;
+}
+.container .main div h4{
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #fa9634;
+}
+.container .main div h4 span{
+	font: 16px/50px;
+	font-weight: normal;
+	color: #222;
+}
+.container .main div p{
+    text-indent: 32px;
+}
+.container .main div p span{
+    font-weight: bold;
+}
+.container .main div h5 {
+    font-size: 16px;
+    color: #222222;
+    font-weight: bold;
+}
+.container .main div h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.container .main div span{
+	font-size: 22px;
+	font-weight: bold;
+	display: inline-block;
+	text-indent: 0;
+}
+.container .main div p span:not(:first-of-type){
+	padding-left: 40px;
+}
+.container .main div img{
+	padding-top:32px;
+    padding-bottom:70px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.if{
+	max-width:725px;
+	min-width: 300px;
+	width:100%;
+	margin: 0 auto;
+	max-height:545px;
+	height: 545px;
+	min-width:200px;
+	height: auto;
+}
+@media screen and (max-width:380px){
+	.container .main div span{
+		padding: 0 !important;
+	    display: block;
+	    line-height: 30px;
+	    margin: 0;
+	}
+	.container .main div p span{
+		display: block;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 1020px){
+	.container .submenu  ul li:hover{
+	    border-bottom-color: #fff;
+	}
+}
+@media screen and (min-width: 1001px){
+	.container .main div p{
+	    text-indent: 0px !important;
+	}
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+	.container{
+		padding: 0 15px;
+	}
+}
+@media screen and (max-width:767px){
+	.container{
+		padding: 0 15px;
+    	margin:0 auto 40px;
+	}
+	.container .submenu{
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	.container .submenu ul{
+		border: none;
+	}
+	.container .submenu ul li{
+		width:25%;
+		float: left;
+		background-position: center 10px !important;
+		text-align: center;
+	}
+	.container .submenu ul li a{
+		line-height: 50px;
+		font-size: 20px;
+		padding-top: 50px;
+		text-indent: 0 !important;
+	}
+	.container .main{
+		width: 100%;
+	}
+	.container .main div{
+		padding-left: 0;
+	}
+}
+@media screen and (max-width:481px){
+	.container .submenu ul li a{
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.container .submenu ul li a span{
+		display: none;
+	}
+	.if{
+		margin-bottom:80px;
+	}
+	#up{
+		display: none !important;
+	}
+}
+@media screen and (max-width:1050px){
+	.container .submenu ul li a{
+		width: 90%;
+	}
+	.container .main div h4{
+	    font-size:1.1em;
+	    line-height:50px;
+	    font-weight: bold;
+	}
+}
